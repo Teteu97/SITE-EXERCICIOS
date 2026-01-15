@@ -91,9 +91,7 @@ function exibirMenu() {
 
   return opcao}
 
-  function executar() {
-  let opcao = ""
-
+ 
   do {
     opcao = exibirMenu()
 
@@ -120,4 +118,3 @@ function exibirMenu() {
     }
 
   } while (opcao !== "6");
-}
