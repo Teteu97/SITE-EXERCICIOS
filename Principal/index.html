@@ -8,21 +8,30 @@
     <script src="Index.js" defer></script>
 </head>
 <body>
+    <!--Header de ligação entra as páginas dos exercícios-->
     <header>
             <H1>Exercícios</H1> 
             <nav> 
-                <a href="../Jogo-da-velha/index.html">Exercício Jogo da Velha</a>
-                <a href="../calculadora/index.html">Exercicio Calculadora</a> 
+                <a href="../Jogo-da-velha/index.html">Jogo da Velha</a>
+                <a href="../calculadora/index.html">Calculadora</a> 
             </nav> 
             <hr>
 
     </header>
-    <div>    
-            <div id="relogio"></div>      
-            <h1>Site de Exercícios</h1> <br>
-            <p>Site criado para amazenar e praticar exercícios feitos em cursos e faculdade.</p>
-    </div>
-    
-    <script src="Index.js"></script>
+    <main>
+        <!--Ligação ao relógio via Js-->
+        <div 
+            id="relogio">
+        </div> 
+        
+        <h1>Site de Exercícios</h1> <br>
+        <p>Site criado para amazenar e praticar exercícios feitos em cursos e faculdade.</p>
+
+        <section id="Welcome">
+            <h1 id="Bemvindo">Bem-Vindo!!</h1>
+            <input type="text" id="name" placeholder="Adicione seu nome!">
+            <button id="nameBtn">Enviar</button>
+        </section>
+    </main>
 </body>
 </html>

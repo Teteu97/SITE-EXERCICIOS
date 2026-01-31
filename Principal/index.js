@@ -1,5 +1,5 @@
 
-
+//Relógio
 const agora = new Date();
 
 //Código para resolver o fuso horário
@@ -45,3 +45,12 @@ const minutos = doisDigitos(agora.getMinutes());
 const segundos = doisDigitos(agora.getSeconds());
 
 const horaFormatada = `${horas}:${minutos}:${segundos}`;
+
+
+//Funcionalidades do: bem vindo
+document.getElementById('nameBtn').addEventListener('click', function(){
+    const Username = document.getElementById("name").value
+    const h1 = document.getElementById('Bemvindo')
+    h1.innerText = "Seja Bem-vindo" + ", " + Username + "!"
+    document.getElementById("name").value = ""
+})
